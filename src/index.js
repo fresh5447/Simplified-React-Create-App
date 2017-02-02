@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import FoodData from './data/food';
-import FoodFilter from './FoodFilter';
+import UsersData from './data/users';
+import Gravatars from './Gravatars';
 
 ReactDOM.render(
-  <FoodFilter data={FoodData}/>,
+  <Gravatars data={UsersData}/>,
   document.getElementById('root')
 );
