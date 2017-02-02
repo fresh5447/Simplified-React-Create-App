@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import HelloWorld from './HelloWorld';
+import NumberMapsAndFilters from './NumberMapsAndFilters';
 
 ReactDOM.render(
-  <HelloWorld />,
+  <NumberMapsAndFilters />,
   document.getElementById('root')
 );
