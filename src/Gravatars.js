@@ -18,6 +18,6 @@ var Gravatars = React.createClass({
       </div>
       );
   }
-})
+});
 
 export default Gravatars;
