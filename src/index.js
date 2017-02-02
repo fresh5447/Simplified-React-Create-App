@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import NumberMapsAndFilters from './NumberMapsAndFilters';
+import FoodData from './data/food';
+import FoodFilter from './FoodFilter';
 
 ReactDOM.render(
-  <NumberMapsAndFilters />,
+  <FoodFilter data={FoodData}/>,
   document.getElementById('root')
 );
